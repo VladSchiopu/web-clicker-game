@@ -1,0 +1,172 @@
+body{
+    background-color:rgb(107, 175, 91);
+}
+
+.locked{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#box{
+    width:99vh;
+    height:99vh;
+    border:0.5vh solid black;
+    border-radius:5vh;
+    background-color:rgb(226, 101, 101);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#nr {
+    font-size: 10vh;
+    position: absolute;
+    left: 10%;
+}
+
+#add1 {
+    width: 35%;
+    height: 15%;
+    position: fixed;
+    top: 75%;
+    left: 10%;
+}
+
+#add2{
+
+    visibility:hidden;
+    width: 35%;
+    height: 15%;
+    position: fixed;
+    top: 75%;
+    left: 55%;
+    
+}
+
+#add2u{
+
+    visibility:visible;
+    border:2px solid black;
+    text-align:center;
+    border-radius:1px;
+    background-color:rgb(222,222,222);
+    color:rgb(200,0,0);
+    width: 35%;
+    height: 15%;
+    position: fixed;
+    top: 75%;
+    left: 55%;
+    
+}
+
+
+
+#mult1{
+
+    visibility:hidden;
+    width: 35%;
+    height: 15%;
+    position: fixed;
+    top: 55%;
+    left: 10%;
+}
+
+
+#mult1u{
+
+    visibility:hidden;
+    border:2px solid black;
+    text-align:center;
+    border-radius:1px;
+    background-color:rgb(222,222,222);
+    color:rgb(200,0,0);
+    width: 35%;
+    height: 15%;
+    position: fixed;
+    top: 55%;
+    left: 10%;
+}
+
+
+#mult2{
+
+    visibility:hidden;
+    width: 35%;
+    height: 15%;
+    position: fixed;
+    top: 55%;
+    left: 55%;
+}
+
+#mult2u{
+
+    visibility:hidden;
+    border:2px solid black;
+    text-align:center;
+    border-radius:1px;
+    background-color:rgb(222,222,222);
+    color:rgb(200,0,0);
+    width: 35%;
+    height: 15%;
+    position: fixed;
+    top: 55%;
+    left: 55%;
+}
+
+
+#pow1{
+
+    visibility:hidden;
+    width: 35%;
+    height: 15%;
+    position: fixed;
+    top: 35%;
+    left: 10%;
+}
+
+#pow1u{
+
+    visibility:hidden;
+    border:2px solid black;
+    text-align:center;
+    border-radius:1px;
+    background-color:rgb(222,222,222);
+    color:rgb(200,0,0);
+    width: 35%;
+    height: 15%;
+    position: fixed;
+    top: 35%;
+    left: 10%;
+}
+
+
+#pow2{
+
+    visibility:hidden;
+    width: 35%;
+    height: 15%;
+    position: fixed;
+    top: 35%;
+    left: 55%;
+}
+
+
+
+#pow2u{
+
+    visibility:hidden;
+    border:2px solid black;
+    text-align:center;
+    border-radius:1px;
+    background-color:rgb(222,222,222);
+    color:rgb(200,0,0);
+    width: 35%;
+    height: 15%;
+    position: fixed;
+    top: 35%;
+    left: 55%;
+}
